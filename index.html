@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>HTML Tables</h1>
+    <hr />
+    <p>Tables are used in HTML in two ways:</p>
+
+    <ol>
+      <li>To create visual tables. E.g. schedules, timetables</li>
+      <li>To align elements horizontolly on a page</li>
+    </ol>
+
+    <table>
+      <!-- Row 1-->
+      <tr class="row1">
+        <th>Block</th>
+        <th>Time</th>
+        <th>Day 1</th>
+        <th>Day 2</th>
+      </tr>
+
+      <!-- Row 2 -->
+      <tr class="row2">
+        <span><td>Block 1</td></span>
+        <td>9:00 - 10:22</td>
+        <td colspan="2">Social Science</td>
+      </tr>
+
+      <!-- Row 3 -->
+      <tr class="row3">
+        <span><td>Block 2</td></span>
+        <td>10:27 - 11:49</td>
+        <td colspan="2">Maths CE ib</td>
+      </tr>
+
+      <!-- Row 4 -->
+      <tr class="row4">
+        <span><td>Lunch</td></span>
+        <td colspan="3">11:49 - 12:34</td>
+      </tr>
+
+      <!-- Row 5 -->
+      <tr class="row5">
+        <span><td>Block 3</td></span>
+        <td>12:34 - 1:56</td>
+        <td colspan="2">Mechanics</td>
+      </tr>
+
+      <!-- Row 6 -->
+      <tr class="row6">
+        <span><td>Block 4</td></span>
+        <td>2:01 - 3:23</td>
+        <td colspan="2">Comp. Sci</td>
+      </tr>
+    </table>
+
+    <table id="poke-table">
+      <!-- Row 1 -->
+      <tr>
+        <td class="title-poke" colspan="3"><b>My Favourite Pokemon</b></td>
+      </tr>
+
+      <!-- Row 2 -->
+      <tr>
+        <td><img src="img/094.png" alt="" /></td>
+        <td><img src="img/guzzlord-removebg-preview.png" alt="" /></td>
+        <td><img src="img/808.png" alt="" /></td>
+      </tr>
+
+      <!-- Row 3 -->
+      <tr class="row-3">
+        <td>Gengar</td>
+        <td>Guzzlord</td>
+        <td>Meltan</td>
+      </tr>
+    </table>
+  </body>
+</html>

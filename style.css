@@ -1,0 +1,63 @@
+html {
+  background-color: navy;
+}
+
+body {
+  background-color: white;
+  width: 600px;
+  padding: 25px 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ol {
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.row1 > th {
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
+
+.row2 > td {
+  color: black;
+  background-color: lightgreen;
+}
+
+.row3 > td {
+  color: black;
+  background-color: lightblue;
+}
+
+.row5 > td {
+  color: black;
+  background-color: rgb(209, 27, 209);
+}
+
+.row6 > td {
+  background-color: rgb(236, 115, 115);
+}
+
+span {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#poke-table {
+  border-style: dashed;
+}
+
+#poke-table img {
+  width: 150px;
+}
+
+#poke-table td {
+  background-color: rgb(50, 142, 228);
+  padding: 5px 10px;
+}
